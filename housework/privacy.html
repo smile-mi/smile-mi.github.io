@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>개인정보처리방침 — 가사분담</title>
+    <style>
+      :root {
+        --surface: #ffffff;
+        --ink: #18181b;
+        --ink-muted: #71717a;
+        --line: #e5e5e7;
+        --accent: #b5651d;
+      }
+      body {
+        margin: 0 auto;
+        max-width: 42rem;
+        padding: 2rem 1.25rem 4rem;
+        background: var(--surface);
+        color: var(--ink);
+        font-family: -apple-system, 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+        font-size: 1rem;
+        line-height: 1.7;
+      }
+      h1 {
+        font-size: 1.75rem;
+      }
+      h2 {
+        margin-top: 2.5rem;
+        font-size: 1.125rem;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 0.75rem;
+        font-size: 0.9375rem;
+      }
+      th,
+      td {
+        border-bottom: 1px solid var(--line);
+        padding: 0.5rem 0.25rem;
+        text-align: left;
+        vertical-align: top;
+      }
+      th {
+        color: var(--ink-muted);
+        font-weight: 500;
+      }
+      ul {
+        padding-left: 1.2rem;
+      }
+      a {
+        color: var(--accent);
+      }
+      .note {
+        border: 1px solid var(--line);
+        border-radius: 0.5rem;
+        padding: 0.75rem 1rem;
+        color: var(--ink-muted);
+        font-size: 0.9375rem;
+      }
+      footer {
+        margin-top: 3rem;
+        border-top: 1px solid var(--line);
+        padding-top: 1rem;
+        color: var(--ink-muted);
+        font-size: 0.875rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>개인정보처리방침</h1>
+    <p>
+      가사분담(이하 "앱")은 커플·룸메이트가 집안일을 나눠 관리하는 앱입니다. 이 방침은 앱이
+      어떤 정보를 받아 무엇에 쓰고 언제 지우는지를 설명합니다.
+    </p>
+
+    <h2>1. 수집하는 정보</h2>
+
+    <p><strong>카카오 로그인을 할 때</strong> 카카오로부터 아래를 받습니다.</p>
+    <table>
+      <tr>
+        <th>항목</th>
+        <th>쓰는 이유</th>
+      </tr>
+      <tr>
+        <td>카카오 회원번호</td>
+        <td>같은 사람이 다시 로그인했을 때 알아보기 위해</td>
+      </tr>
+      <tr>
+        <td>닉네임</td>
+        <td>그룹 화면에 이름으로 표시하기 위해</td>
+      </tr>
+    </table>
+    <p class="note">
+      이메일 주소나 프로필 사진은 앱이 저장하지 않습니다.
+    </p>
+
+    <p><strong>앱을 쓰는 동안</strong> 이용자가 직접 입력하거나 앱이 자동으로 만드는 정보를
+    저장합니다.</p>
+    <table>
+      <tr>
+        <th>항목</th>
+        <th>쓰는 이유</th>
+      </tr>
+      <tr>
+        <td>그룹 정보 — 초대코드, 소속 멤버</td>
+        <td>커플·룸메이트를 하나의 그룹으로 묶기 위해</td>
+      </tr>
+      <tr>
+        <td>할 일 정보 — 제목, 담당자, 마감일, 반복 설정, 완료 여부·완료 시각·완료한 사람</td>
+        <td>집안일 분담과 완료 현황을 보여주기 위해</td>
+      </tr>
+      <tr>
+        <td>"고마워요" 표시 기록</td>
+        <td>그룹 멤버끼리 서로 감사를 표현하는 기능을 제공하기 위해</td>
+      </tr>
+      <tr>
+        <td>바쁨 상태 표시</td>
+        <td>이용자가 직접 켜고 끄는 상태를 그룹에 보여주기 위해</td>
+      </tr>
+      <tr>
+        <td>기기 푸시 토큰</td>
+        <td>할 일 완료·리마인더 알림을 보내기 위해</td>
+      </tr>
+    </table>
+    <p class="note">
+      <strong>앱은 카메라·위치 등의 기기 권한을 요구하지 않습니다.</strong> 사용하는 기기 권한은
+      인터넷 연결과 알림 표시뿐입니다.
+    </p>
+
+    <h2>2. 정보를 처리하는 곳</h2>
+    <table>
+      <tr>
+        <th>서비스</th>
+        <th>건너가는 것</th>
+      </tr>
+      <tr>
+        <td>Supabase (저장·인증, 서울 리전)</td>
+        <td>위 1번의 모든 항목</td>
+      </tr>
+      <tr>
+        <td>카카오 (로그인)</td>
+        <td>로그인 절차에 필요한 최소 정보</td>
+      </tr>
+      <tr>
+        <td>Google Firebase Cloud Messaging (푸시 알림 발송)</td>
+        <td>기기 푸시 토큰과 알림 내용(예: "○○님이 △△을 완료했어요")</td>
+      </tr>
+    </table>
+
+    <h2>3. 보관과 파기</h2>
+    <ul>
+      <li>정보는 계정이 살아 있는 동안 보관합니다.</li>
+      <li>
+        <strong>계정을 삭제하면</strong> 카카오 회원번호·닉네임·기기 푸시 토큰이 즉시
+        삭제되고, 그룹에서도 함께 제외됩니다.
+      </li>
+      <li>
+        다만 그룹 안의 <strong>할 일 완료 기록 자체(완료된 날짜·시각)는 그룹의 이력으로
+        남습니다</strong> — 누가 완료했는지 식별할 수 있는 정보만 함께 지워집니다. 이는
+        그룹 구성원들이 그동안의 분담 이력을 계속 볼 수 있게 하기 위한 의도된 예외입니다.
+      </li>
+      <li>그룹의 마지막 멤버가 탈퇴·삭제하면 그룹 자체도 함께 삭제됩니다.</li>
+    </ul>
+
+    <h2>4. 이용자의 권리</h2>
+    <p>
+      언제든지 자신의 정보를 지울 수 있습니다. 앱 화면의 <strong>"계정 삭제"</strong> 버튼을
+      누르면 됩니다. 앱을 이미 지웠다면
+      <a href="./delete-account.html">계정 삭제 안내</a>의 방법으로 요청하실 수 있고,
+      요청일로부터 <strong>30일 이내</strong>에 처리합니다.
+    </p>
+
+    <h2>5. 안전 조치</h2>
+    <ul>
+      <li>모든 통신은 암호화(HTTPS)해서 주고받습니다.</li>
+      <li>데이터베이스는 같은 그룹 구성원만 자기 그룹의 자료를 읽고 쓸 수 있도록 접근을 제한합니다.</li>
+    </ul>
+
+    <h2>6. 어린이</h2>
+    <p>
+      앱은 만 14세 미만을 대상으로 하지 않으며, 만 14세 미만의 정보를 알면서 수집하지
+      않습니다.
+    </p>
+
+    <h2>7. 방침이 바뀔 때</h2>
+    <p>
+      내용이 바뀌면 이 페이지를 고치고 아래 시행일을 갱신합니다. 중요한 변경은 앱 안에서
+      알립니다.
+    </p>
+
+    <h2>8. 문의</h2>
+    <p class="note">p20260001@gmail.com</p>
+
+    <footer>
+      시행일 2026년 9월 12일 · 가사분담 ·
+      <a href="./delete-account.html">계정 삭제</a>
+    </footer>
+  </body>
+</html>
