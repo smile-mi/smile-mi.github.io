@@ -11,6 +11,7 @@
 - https://smile-mi.github.io/housework/privacy.html
 - https://smile-mi.github.io/housework/delete-account.html
 - https://smile-mi.github.io/gift-money/privacy.html
+- https://smile-mi.github.io/gift-money/delete-account.html (Play Console 등록 예정)
 
 **주소가 죽으면 정책 위반으로 앱이 내려갈 수 있다.** 저장소 이름(`smile-mi.github.io`)과 폴더 이름(`jjikgo`, `housework`, `gift-money`), 파일 이름을 바꾸면 주소가 깨진다. 앱이 스토어에 살아 있는 동안 이들은 그대로 둔다.
 
@@ -28,4 +29,5 @@
 | `housework/privacy.html` | 가사분담 개인정보처리방침 (Play 필수) |
 | `housework/delete-account.html` | 가사분담 계정 삭제 안내 — **앱을 이미 지운 사람이 요청하는 경로** (Play 필수) |
 | `housework/index.html` | 두 장으로 가는 링크 |
-| `gift-money/privacy.html` | 축의금 기록 개인정보처리방침 (Play 필수) |
+| `gift-money/privacy.html` | 오간돈(구 축의금 기록) 개인정보처리방침 (Play 필수) |
+| `gift-money/delete-account.html` | 오간돈 계정 삭제 안내 — **앱을 이미 지운 사람이 요청하는 경로** (Play 필수) |
