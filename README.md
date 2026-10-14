@@ -33,5 +33,5 @@
 | `housework/index.html` | 두 장으로 가는 링크 |
 | `gift-money/privacy.html` | 오간돈(구 축의금 기록) 개인정보처리방침 (Play 필수) |
 | `gift-money/delete-account.html` | 오간돈 계정 삭제 안내 — **앱을 이미 지운 사람이 요청하는 경로** (Play 필수) |
-| `minesweeper/privacy.html` | 지뢰찾기 개인정보처리방침 (Play 필수, 계정이 없어 삭제 안내 페이지는 없음. 원본은 `smile-mi/minesweeper`의 `docs/release/privacy.html`) |
-| `app-ads.txt` | AdMob 승인 판매자 선언(지뢰찾기용 게시자 ID). 개발자 웹사이트 루트에 있어야 해서 폴더가 아닌 저장소 루트에 둔다 |
+| `minesweeper/privacy.html` | 지뢰의 정석(By the Book) 개인정보처리방침 (Play 필수, 계정이 없어 삭제 안내 페이지는 없음. 원본은 `smile-mi/minesweeper`의 `docs/release/privacy.html`) |
+| `app-ads.txt` | AdMob 승인 판매자 선언(지뢰의 정석용 게시자 ID). 개발자 웹사이트 루트에 있어야 해서 폴더가 아닌 저장소 루트에 둔다 |
